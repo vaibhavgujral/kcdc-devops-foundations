@@ -345,6 +345,10 @@ export SUFFIX="<<Initials>><<RandomString>>"   # ← REPLACE: your initials + a 
 export LOCATION=centralus
 export SUB_ID=$(az account show --query id -o tsv)
 ```
+Register Microsoft.Storage Resource Provider under your subscription before proceeding with the next steps. (Azure Portal -> Subscriptions -> Look for your subscription -> Expand Settings -> Resource Provider -> Search for "Microsoft.Storage"
+
+<img width="1506" height="676" alt="image" src="https://github.com/user-attachments/assets/17fc3ba4-18ec-4e5e-b041-64f2753ee27a" />
+
 
 **a) Storage account for Terraform state:**
 ```bash
