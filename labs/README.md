@@ -125,6 +125,8 @@ git push -u origin feature/add-your-name
 
 ## 1.6 Open a pull request — and review it like a reviewer
 **Create it:**
+Ensure that you select your fork in the target repo drop-down list (second in list) instead of the remote repo.
+
 1. GitHub shows a yellow banner on your fork — click **Compare & pull request**. If the banner
    is gone, use **Pull requests → New pull request** and pick your branch. Either way, check
    the base: it must be **your fork's** `main`, not the upstream workshop repo.
