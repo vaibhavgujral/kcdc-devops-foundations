@@ -350,6 +350,11 @@ Register Microsoft.Storage Resource Provider under your subscription before proc
 <img width="1506" height="676" alt="image" src="https://github.com/user-attachments/assets/17fc3ba4-18ec-4e5e-b041-64f2753ee27a" />
 
 
+Or you can execute this command:
+```bash
+az provider register --namespace Microsoft.Storage
+```
+
 **a) Storage account for Terraform state:**
 ```bash
 az group create -n rg-tfstate-$SUFFIX -l $LOCATION
